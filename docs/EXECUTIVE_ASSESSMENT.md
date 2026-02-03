@@ -336,6 +336,22 @@ Production systems require:
 
 ---
 
+## Safe Deployment Guidance
+
+For organizations that choose to proceed with deployment despite identified risks, we have prepared comprehensive hardening guidance in the **Safe Deployment Guide** (`docs/SAFE_DEPLOYMENT_GUIDE.md`). This document provides:
+
+- Pre-deployment security hardening checklist
+- Network security architecture with TLS termination
+- Credential management best practices and compensating controls
+- Monitoring and alerting infrastructure setup
+- Cost tracking and budget controls implementation
+- Incident response procedures
+- Step-by-step production deployment procedures
+
+**Important:** These are mitigating controls that reduce but do not eliminate the fundamental architectural risks identified in this assessment.
+
+---
+
 ## Deployment Recommendations
 
 ### Not Recommended For:
